@@ -2,6 +2,9 @@
 Using this to learn more about Shadcn UI Components
 
 ### Technologies used
+- Reactjs
+- Nextjs 14.1 (Latest)
+- Shadcn UI
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
