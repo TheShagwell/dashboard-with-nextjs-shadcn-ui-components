@@ -29,6 +29,6 @@ export default function Card(props: CardProps) {
 export function CardContent(props: React.HTMLAttributes<HTMLDivElement>) {
     // In other words i ca decide to use a <p> tag inside this <div/>
     return (
-        <div {...props} className={cn("flex w-full flex-col gap-3 rounded-xl border p-5 shadow", props.className)}/>
+        <div {...props} className={cn("flex w-full flex-col gap-1 rounded-xl border p-5 shadow", props.className)}/>
     )
 }

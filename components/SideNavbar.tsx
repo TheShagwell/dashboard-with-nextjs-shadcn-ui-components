@@ -34,13 +34,13 @@ export default function SideNavbar({}: Props) {
         {!mobileWidth && (
             <div className="absolute right-[-20px] top-7">
                 {isCollapsed ? (
-                <Button onClick={toggleSidebar} variant="secondary" className='rounded-full p-2'>
-                    <ChevronRight/>
-                </Button>
+                  <Button onClick={toggleSidebar} variant="secondary" className='rounded-full p-2'>
+                      <ChevronRight/>
+                  </Button>
                 ) : 
-                <Button onClick={toggleSidebar} variant="secondary" className='rounded-full p-2'>
-                <ChevronLeft/>
-            </Button>
+                  <Button onClick={toggleSidebar} variant="secondary" className='rounded-full p-2'>
+                    <ChevronLeft/>
+                  </Button>
                 }
             </div>
         )}
