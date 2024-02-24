@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 
 import {
+    ChevronLeft,
     ChevronRight,
     LayoutDashboard,
     Settings,
@@ -32,9 +33,15 @@ export default function SideNavbar({}: Props) {
     <div className='relative min-w-[80px] border-r px-3 pb-10 pt-24'>
         {!mobileWidth && (
             <div className="absolute right-[-20px] top-7">
+                {isCollapsed ? (
                 <Button onClick={toggleSidebar} variant="secondary" className='rounded-full p-2'>
                     <ChevronRight/>
                 </Button>
+                ) : 
+                <Button onClick={toggleSidebar} variant="secondary" className='rounded-full p-2'>
+                <ChevronLeft/>
+            </Button>
+                }
             </div>
         )}
         <Nav
