@@ -2,6 +2,7 @@
 
 import { DataTable } from '@/components/DataTable'
 import PageTitle from '@/components/PageTitle'
+import { cn } from '@/lib/utils'
 import { ColumnDef } from '@tanstack/react-table'
 import React from 'react'
 
@@ -24,7 +25,15 @@ export const columns: ColumnDef<Payment>[] = [
     header: "Status",
     cell: ({ row }) => {
       return (
-        <div>{row.getValue("status")}</div>
+        <div 
+          className={cn("font-medium w-fit px-4 py-2 rounded-full", {
+            "bg-red-200": row.getValue("status") === "Pending",
+            "bg-orange-200": row.getValue("status") === "Processing",
+            "bg-green-200": row.getValue("status") === "Completed",
+          })}
+        >
+          {row.getValue("status")}
+        </div>
       )
     }
   },
