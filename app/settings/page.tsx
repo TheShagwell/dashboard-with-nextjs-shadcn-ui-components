@@ -50,5 +50,9 @@ const data: Setttings[] = [
   {
     category: "Theme",
     value: "Dark"
+  },
+  {
+    category: "Payment Options",
+    value: true
   }
 ];
