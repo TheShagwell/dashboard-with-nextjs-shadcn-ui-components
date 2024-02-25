@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 import { ColumnDef } from '@tanstack/react-table'
 import React from 'react'
 
-type Props = []
+type Props = {};
 
 type Payment = {
   order: string;
@@ -15,7 +15,7 @@ type Payment = {
   method: string;
 };
  
-export const columns: ColumnDef<Payment>[] = [
+const columns: ColumnDef<Payment>[] = [
   {
     accessorKey: "order",
     header: "Order"
@@ -46,16 +46,6 @@ export const columns: ColumnDef<Payment>[] = [
     header: "Method"
   },
 ]
-
-
-export default function OrdersPage({}: Props) {
-  return (
-    <div className='flex flex-col gap-5 w-full'>
-      <PageTitle title='Orders'/>
-      <DataTable columns={columns} data={data} />
-    </div>
-  )
-}
 
 const data: Payment[] = [
   {
@@ -149,3 +139,12 @@ const data: Payment[] = [
     method: "Credit Card"
   }
 ];
+
+export default function OrdersPage({}: Props) {
+  return (
+    <div className='flex flex-col gap-5 w-full'>
+      <PageTitle title='Orders'/>
+      <DataTable columns={columns} data={data} />
+    </div>
+  )
+}
