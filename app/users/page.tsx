@@ -1,3 +1,5 @@
+"use client"
+
 import { DataTable } from '@/components/DataTable'
 import PageTitle from '@/components/PageTitle'
 import { ColumnDef } from '@tanstack/react-table'
@@ -14,17 +16,35 @@ export type Payment = {
  
 export const columns: ColumnDef<Payment>[] = [
   {
-    accessorKey: "status",
-    header: "Status",
+    accessorKey: "name",
+    header: "Name",
+    cell: ({ row }) => {
+      return (
+        <div className="flex gap-2 items-center">
+          <img
+            className="h-10 w-10"
+            src={`https://api.dicebear.com/7.x/lorelei/svg?seed=${row.getValue(
+              "name"
+            )}`}
+            alt="user-image"
+          />
+          <p>{row.getValue("name")} </p>
+        </div>
+      );
+    }
   },
   {
     accessorKey: "email",
-    header: "Email",
+    header: "Email"
   },
   {
-    accessorKey: "amount",
-    header: "Amount",
+    accessorKey: "lastOrder",
+    header: "Last Order"
   },
+  {
+    accessorKey: "method",
+    header: "Method"
+  }
 ]
 
 
