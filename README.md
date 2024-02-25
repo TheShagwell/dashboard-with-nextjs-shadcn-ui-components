@@ -4,7 +4,7 @@ Using this to learn more about Shadcn UI Components on Nextjs
 ### Technologies/Libraries used
 - Reactjs
 - Nextjs 14.1 (Latest)
-- Shadcn UI Components
+- Shadcn UI Components [Shadcn UI](https://ui.shadcn.com/docs/components)
 - Tailwindcss
 - Typescript
 - Dicebear
