@@ -25,4 +25,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Visit the app 👉 [Route the app here](https://nextjs-shadcn-dashboard-one.vercel.app)
+Visit the app 👉 [Route here](https://nextjs-shadcn-dashboard-one.vercel.app)
