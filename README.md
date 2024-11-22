@@ -28,9 +28,10 @@ npm run dev
 
 ```
 
+Open with your browser to see the result.
 ```bash
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000
 
 ```
 
