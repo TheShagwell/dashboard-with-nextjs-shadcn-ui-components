@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Shadcn UI Dashboard",
   description: "Create a dashboard using shadcn UI, tailwindcss and typescript",
   icons: {
-    icon: '/logo.svg'
+    icon: 'logo.svg'
   }
 };
 
