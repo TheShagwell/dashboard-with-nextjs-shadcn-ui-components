@@ -2,27 +2,36 @@
 Using this to learn more about Shadcn UI Components on Nextjs
 
 ### Technologies/Libraries used
-- Reactjs
-- Nextjs 14.1 (Latest)
-- Shadcn UI Components [Shadcn UI](https://ui.shadcn.com/docs/components)
-- Tailwindcss
-- Typescript
-- Dicebear
-- Rechart
-- useWindowSize()
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- ⚡ Reactjs
+- 🏍 Nextjs 14.1 (Latest)
+- ✨ Shadcn UI Components
+- 🏓 Tailwindcss
+- 🎄 Typescript
+- 🎗 Dicebear
+- 🎑 Rechart
+- 🧥 useWindowSize()
 
 ## Getting Started
 
-First, run the development server:
 
+Clone your repository
+```typescript
+
+git clone https://github.com/TheShagwell/dashboard-with-nextjs-shadcn-ui-components.git
+
+```
+
+Run the development server
 ```bash
 
 npm run dev
 
 ```
 
+```bash
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+```
 
 Visit the app 👉 [Route here](https://nextjs-shadcn-dashboard-one.vercel.app)
