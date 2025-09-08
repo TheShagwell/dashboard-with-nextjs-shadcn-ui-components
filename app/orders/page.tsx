@@ -137,7 +137,13 @@ const data: Payment[] = [
     status: "Pending",
     lastOrder: "2024-03-30",
     method: "Credit Card"
-  }
+  },
+  {
+    order: "ORD016",
+    status: "Processing",
+    lastOrder: "2024-05-12",
+    method: "Debit Card"
+  },
 ];
 
 export default function OrdersPage({}: Props) {
