@@ -127,6 +127,12 @@ const data: Payment[] = [
     method: "Square Cash"
   },
   {
+    name: "Alvarez Rodriguez",
+    email: "alvarez@example.com",
+    lastOrder: "2024-01-18",
+    method: "Geepay Card"
+  },
+  {
     name: "Charlotte Carter",
     email: "charlotte@example.com",
     lastOrder: "2024-02-22",
