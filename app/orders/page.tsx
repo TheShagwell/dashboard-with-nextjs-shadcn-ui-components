@@ -144,6 +144,12 @@ const data: Payment[] = [
     lastOrder: "2024-05-12",
     method: "Debit Card"
   },
+  {
+    order: "ORD017",
+    status: "Pending",
+    lastOrder: "2025-10-27",
+    method: "Debit Card"
+  },
 ];
 
 export default function OrdersPage({}: Props) {
