@@ -26,7 +26,6 @@ export default function RootLayout({
         "debug-screens": process.env.NODE_ENV === "development"
       })}>
         {/* Sidebar */}
-        {/* <p className="border">Sidebar</p> */}
         <SideNavbar/>
         {/* Main page */}
         <div className="p-8 w-full">
