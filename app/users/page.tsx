@@ -143,6 +143,12 @@ const data: Payment[] = [
     email: "benjamin@example.com",
     lastOrder: "2024-03-30",
     method: "Stripe"
+  },
+  {
+    name: "Ebuka Ebele",
+    email: "ebuka.ebele@gmail.com",
+    lastOrder: "2025-09-30",
+    method: "Verve"
   }
 ]
 export default function UsersPage({}: Props) {
