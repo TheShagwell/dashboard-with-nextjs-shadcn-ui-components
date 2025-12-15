@@ -26,7 +26,7 @@ const columns: ColumnDef<Payment>[] = [
             src={`https://api.dicebear.com/7.x/lorelei/svg?seed=${row.getValue(
               "name"
             )}`}
-            alt="user-image"
+            alt="user image"
           />
           <p>{row.getValue("name")} </p>
         </div>
