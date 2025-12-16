@@ -44,6 +44,10 @@ const columns: ColumnDef<Payment>[] = [
   {
     accessorKey: "method",
     header: "Method"
+  },
+  {
+    accessorKey: "status",
+    header: "Status"
   }
 ]
 
